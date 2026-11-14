@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Trina Studio is an art and illustration studio based in Seattle. Explore paintings, request a commission, or find a print to take home.">
+    <meta name="theme-color" content="#ffffff">
+    <title>trina studio — artist & illustrator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Trina Studio home">trina studio<img class="metal-cloud-icon" src="images/metal-cloud.svg" alt=""></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="prints.html">Print shop</a>
+        <a href="gallery.html">Studio</a>
+        <a href="commissions.html">Commissions</a>
+        <a href="about.html">About</a>
+        <a class="cart-link" href="prints.html#cart-dialog" data-cart-open aria-label="Open cart, 0 items">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 8h14l-1 13H6L5 8Z" /><path d="M9 8V6a3 3 0 0 1 6 0v2" /></svg>
+          <span class="cart-count" data-cart-count>0</span>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="studio-hero">
+        <div class="studio-clouds" aria-hidden="true">
+          <svg class="studio-cloud studio-cloud-one" viewBox="0 0 181 144" focusable="false">
+            <defs><linearGradient id="chrome-cloud-one" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#f8fbff" /><stop offset="12%" stop-color="#77808f" /><stop offset="24%" stop-color="#fff" /><stop offset="39%" stop-color="#8992a1" /><stop offset="51%" stop-color="#e7ebf1" /><stop offset="63%" stop-color="#626b79" /><stop offset="77%" stop-color="#fff" /><stop offset="90%" stop-color="#9ca5b3" /><stop offset="100%" stop-color="#f1f4f8" /></linearGradient></defs>
+            <path class="cloud-depth" d="M29 129C15 129 6 120 6 106C6 88 14 73 28 62C30 44 44 31 62 31C79 31 92 43 95 59C101 53 108 50 117 50C134 50 147 63 148 80C163 80 175 91 175 105C175 119 164 129 149 129H29Z" />
+            <path class="cloud-highlight" d="M29 129C15 129 6 120 6 106C6 88 14 73 28 62C30 44 44 31 62 31C79 31 92 43 95 59C101 53 108 50 117 50C134 50 147 63 148 80C163 80 175 91 175 105C175 119 164 129 149 129H29Z" />
+            <path class="cloud-face" d="M29 129C15 129 6 120 6 106C6 88 14 73 28 62C30 44 44 31 62 31C79 31 92 43 95 59C101 53 108 50 117 50C134 50 147 63 148 80C163 80 175 91 175 105C175 119 164 129 149 129H29Z" />
+          </svg>
+          <svg class="studio-cloud studio-cloud-two" viewBox="0 0 181 144" focusable="false">
+            <defs><linearGradient id="chrome-cloud-two" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#f8fbff" /><stop offset="12%" stop-color="#77808f" /><stop offset="24%" stop-color="#fff" /><stop offset="39%" stop-color="#8992a1" /><stop offset="51%" stop-color="#e7ebf1" /><stop offset="63%" stop-color="#626b79" /><stop offset="77%" stop-color="#fff" /><stop offset="90%" stop-color="#9ca5b3" /><stop offset="100%" stop-color="#f1f4f8" /></linearGradient></defs>
+            <path class="cloud-depth" d="M29 129C15 129 6 120 6 106C6 88 14 73 28 62C30 44 44 31 62 31C79 31 92 43 95 59C101 53 108 50 117 50C134 50 147 63 148 80C163 80 175 91 175 105C175 119 164 129 149 129H29Z" />
+            <path class="cloud-highlight" d="M29 129C15 129 6 120 6 106C6 88 14 73 28 62C30 44 44 31 62 31C79 31 92 43 95 59C101 53 108 50 117 50C134 50 147 63 148 80C163 80 175 91 175 105C175 119 164 129 149 129H29Z" />
+            <path class="cloud-face" d="M29 129C15 129 6 120 6 106C6 88 14 73 28 62C30 44 44 31 62 31C79 31 92 43 95 59C101 53 108 50 117 50C134 50 147 63 148 80C163 80 175 91 175 105C175 119 164 129 149 129H29Z" />
+          </svg>
+          <svg class="studio-cloud studio-cloud-three" viewBox="0 0 181 144" focusable="false">
+            <defs><linearGradient id="chrome-cloud-three" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#f8fbff" /><stop offset="12%" stop-color="#77808f" /><stop offset="24%" stop-color="#fff" /><stop offset="39%" stop-color="#8992a1" /><stop offset="51%" stop-color="#e7ebf1" /><stop offset="63%" stop-color="#626b79" /><stop offset="77%" stop-color="#fff" /><stop offset="90%" stop-color="#9ca5b3" /><stop offset="100%" stop-color="#f1f4f8" /></linearGradient></defs>
+            <path class="cloud-depth" d="M29 129C15 129 6 120 6 106C6 88 14 73 28 62C30 44 44 31 62 31C79 31 92 43 95 59C101 53 108 50 117 50C134 50 147 63 148 80C163 80 175 91 175 105C175 119 164 129 149 129H29Z" />
+            <path class="cloud-highlight" d="M29 129C15 129 6 120 6 106C6 88 14 73 28 62C30 44 44 31 62 31C79 31 92 43 95 59C101 53 108 50 117 50C134 50 147 63 148 80C163 80 175 91 175 105C175 119 164 129 149 129H29Z" />
+            <path class="cloud-face" d="M29 129C15 129 6 120 6 106C6 88 14 73 28 62C30 44 44 31 62 31C79 31 92 43 95 59C101 53 108 50 117 50C134 50 147 63 148 80C163 80 175 91 175 105C175 119 164 129 149 129H29Z" />
+          </svg>
+        </div>
+        <h1 class="studio-title"><span>TRINA</span><span>STUDIO</span></h1>
+        <p class="studio-subtitle">artist based in seattle</p>
+        <p class="studio-subtitle studio-inspiration">heavily inspired by Studio Ghibli and my camera roll</p>
+        <nav class="studio-quick-links" aria-label="Explore">
+          <a href="prints.html">[prints]</a>
+          <a href="commissions.html">[customs]</a>
+        </nav>
+      </section>
+      <section class="home-carousel section-wrap" data-gallery-carousel aria-label="Featured paintings" aria-roledescription="carousel">
+        <div class="slideshow-shell">
+        <button class="carousel-arrow carousel-arrow-prev" type="button" data-gallery-prev aria-label="Scroll to previous paintings">
+          <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+            <defs><linearGradient id="chrome-arrow-prev" x1="0" y1="0" x2="0" y2="24" gradientUnits="userSpaceOnUse"><stop stop-color="#f8fbff"/><stop offset=".18" stop-color="#596270"/><stop offset=".32" stop-color="#fff"/><stop offset=".48" stop-color="#858f9e"/><stop offset=".62" stop-color="#fff"/><stop offset=".8" stop-color="#4d5663"/><stop offset="1" stop-color="#eef2f6"/></linearGradient></defs>
+            <path d="M19 12H5m7-7-7 7 7 7" transform="translate(.55 .9)" fill="none" stroke="#4b5361" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+            <path d="M19 12H5m7-7-7 7 7 7" transform="translate(-.3 -.5)" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
+            <path d="M19 12H5m7-7-7 7 7 7" fill="none" stroke="url(#chrome-arrow-prev)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <button class="carousel-arrow carousel-arrow-next" type="button" data-gallery-next aria-label="Scroll to next paintings">
+          <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+            <defs><linearGradient id="chrome-arrow-next" x1="0" y1="0" x2="0" y2="24" gradientUnits="userSpaceOnUse"><stop stop-color="#f8fbff"/><stop offset=".18" stop-color="#596270"/><stop offset=".32" stop-color="#fff"/><stop offset=".48" stop-color="#858f9e"/><stop offset=".62" stop-color="#fff"/><stop offset=".8" stop-color="#4d5663"/><stop offset="1" stop-color="#eef2f6"/></linearGradient></defs>
+            <path d="M5 12h14m-7-7 7 7-7 7" transform="translate(.55 .9)" fill="none" stroke="#4b5361" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+            <path d="M5 12h14m-7-7 7 7-7 7" transform="translate(-.3 -.5)" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
+            <path d="M5 12h14m-7-7 7 7-7 7" fill="none" stroke="url(#chrome-arrow-next)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="sliding-gallery" data-gallery-viewport tabindex="0" aria-label="Painting gallery">
+            <div class="painting-track">
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/artworks/artwork-01.jpg" alt="Painted portrait of a seated person against a turquoise background">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[01]</span><h2>the creator</h2></div><div class="painting-details"><p>original artwork</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/tidepools.jpg" alt="tidepools, gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[07]</span><h2>tidepools</h2></div><div class="painting-details"><p>gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/its-raining-cats-and-dogs.jpg" alt="it's raining cats and dogs, gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[08]</span><h2>it's raining cats &amp; dogs !!</h2></div><div class="painting-details"><p>gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/retro.jpg" alt="retro, gouache and acrylic painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[09]</span><h2>retro</h2></div><div class="painting-details"><p>gouache + acrylic</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/covid-flowers.jpg" alt="covid flowers, gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[10]</span><h2>covid flowers</h2></div><div class="painting-details"><p>gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/diet-coke.jpg" alt="diet coke, gouache and acrylic painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[11]</span><h2>diet coke</h2></div><div class="painting-details"><p>gouache + acrylic</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/snowboardin-snoqualmie.jpg" alt="snowboardin' snoqualmie, oil painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[12]</span><h2>snowboardin' snoqualmie</h2></div><div class="painting-details"><p>oil</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/artworks/artwork-02.jpg" alt="Two orange fish surrounded by lush green forest plants" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[02]</span><h2>fishies !</h2></div><div class="painting-details"><p>original artwork</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/grand-canyon.jpg" alt="grand canyon, gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[13]</span><h2>grand canyon</h2></div><div class="painting-details"><p>gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/wednesday.jpg" alt="wednesday, watercolor, gouache, and colored pencil painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[14]</span><h2>wednesday</h2></div><div class="painting-details"><p>watercolor + gouache + color pencil</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/sailor-moon.jpg" alt="sailor moon, watercolor and gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[15]</span><h2>sailor moon</h2></div><div class="painting-details"><p>watercolor + gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/tom-and-jerry.jpg" alt="tom and jerry, ink drawing" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[16]</span><h2>tom &amp; jerry</h2></div><div class="painting-details"><p>ink drawing</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/artworks/artwork-03.jpg" alt="Painted row of sneakers with a phone showing shoe sketches" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[03]</span><h2>untitled 03</h2></div><div class="painting-details"><p>original artwork</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/tennis-courts.jpg" alt="tennis courts, gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[17]</span><h2>tennis courts</h2></div><div class="painting-details"><p>gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/champion.jpg" alt="champion, gouache and colored pencil painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[18]</span><h2>champion</h2></div><div class="painting-details"><p>gouache + color pencil</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/msft.jpg" alt="msft, gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[19]</span><h2>msft</h2></div><div class="painting-details"><p>gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/plushies.jpg" alt="plushies, oil painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[20]</span><h2>plushies</h2></div><div class="painting-details"><p>oil</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/picnic.jpg" alt="picnic, gouache, watercolor, and ink painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[21]</span><h2>picnic</h2></div><div class="painting-details"><p>gouache + watercolor + ink</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/artworks/artwork-04.jpg" alt="Painted ice cream cups and a spoon on a pink table" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[04]</span><h2>ben &amp; jerry's</h2></div><div class="painting-details"><p>original artwork</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/legs-legs-legs.jpg" alt="legs legs legs, gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[22]</span><h2>legs legs legs</h2></div><div class="painting-details"><p>gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/skater.jpg" alt="skater, gouache and colored pencil painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[23]</span><h2>skater</h2></div><div class="painting-details"><p>gouache + color pencil</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/aot.jpg" alt="aot, gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[24]</span><h2>aot</h2></div><div class="painting-details"><p>gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/fremont-troll.jpg" alt="fremont troll, gouache and colored pencil painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[25]</span><h2>fremont troll</h2></div><div class="painting-details"><p>gouache + color pencil</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/artworks/artwork-05.jpg" alt="Painted green dinosaur beneath a purple and golden sky" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[05]</span><h2>dino</h2></div><div class="painting-details"><p>original artwork</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/horseshoe-bend.jpg" alt="horseshoe bend, gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[26]</span><h2>horseshoe bend</h2></div><div class="painting-details"><p>gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/tatted.jpg" alt="tatted, oil painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[27]</span><h2>tatted</h2></div><div class="painting-details"><p>oil</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/north-cascades.jpg" alt="north cascades, gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[28]</span><h2>north cascades</h2></div><div class="painting-details"><p>gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/zion-ntl-park.jpg" alt="zion national park, gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[29]</span><h2>zion ntl park</h2></div><div class="painting-details"><p>gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/soju-on-a-tuesday.jpg" alt="soju on a tuesday, gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[30]</span><h2>soju on a tuesday</h2></div><div class="painting-details"><p>gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/artworks/artwork-06.jpg" alt="Painted figure holding a sneaker in a doorway" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[06]</span><h2>untitled 06</h2></div><div class="painting-details"><p>original artwork</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/marilyn.jpg" alt="marilyn, acrylic painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[31]</span><h2>marilyn</h2></div><div class="painting-details"><p>acrylic</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/shower.jpg" alt="shower, gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[32]</span><h2>shower</h2></div><div class="painting-details"><p>gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            <a class="painting-card" href="gallery.html">
+              <img class="painting-image" src="images/prints/oysters.jpg" alt="oysters, gouache painting" loading="lazy" decoding="async">
+              <div class="painting-caption"><div class="painting-title"><span class="artwork-index">[33]</span><h2>oysters</h2></div><div class="painting-details"><p>gouache</p><span>view studio ↗</span></div></div>
+            </a>
+            </div>
+        </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="footer-social-links"><a class="home-instagram" href="https://www.instagram.com/trina_studio/" target="_blank" rel="noopener noreferrer">Instagram</a><a class="home-tiktok" href="https://www.tiktok.com/@trinastudio" target="_blank" rel="noopener noreferrer">TikTok</a><a class="home-linkedin" href="https://www.linkedin.com/in/ngocnguyen6/" target="_blank" rel="noopener noreferrer">LinkedIn?</a></div><span>© <span data-year>2025</span> Trina Studio</span></footer>
+  </body>
+</html>

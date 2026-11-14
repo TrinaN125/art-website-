@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Request a custom art commission from Trina Studio, an artist based in Seattle.">
+    <meta name="theme-color" content="#ffffff">
+    <title>commissions — trina studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Trina Studio home">trina studio<img class="metal-cloud-icon" src="images/metal-cloud.svg" alt=""></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="prints.html">Print shop</a><a href="gallery.html">Studio</a><a href="commissions.html" aria-current="page">Commissions</a><a href="about.html">About</a><a class="cart-link" href="prints.html#cart-dialog" data-cart-open aria-label="Open cart, 0 items"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 8h14l-1 13H6L5 8Z" /><path d="M9 8V6a3 3 0 0 1 6 0v2" /></svg><span class="cart-count" data-cart-count>0</span></a>
+      </nav>
+    </header>
+    <main class="page-main">
+      <section class="page-intro page-intro-narrow">
+        <h1>CUSTOM PAINTINGS</h1>
+      </section>
+      <section class="commission-layout section-wrap">
+        <aside class="commission-aside">
+          <div class="aside-scribble" aria-hidden="true"><img src="images/metal-cloud.svg" alt=""></div>
+          <h2>How it works</h2>
+          <ol class="steps-list">
+            <li><span>01</span><div><strong>send me your idea</strong><p>fill out the email on the right and press send</p></div></li>
+            <li><span>02</span><div><strong>follow up</strong><p>i'll reach out and follow up on timing, size, and pricing</p></div></li>
+            <li><span>03</span><div><strong>execution</strong><p>once we agree on the details, i'll get started on the painting.</p></div></li>
+          </ol>
+        </aside>
+        <form class="request-form mail-compose" action="https://formsubmit.co/trinan12399@gmail.com" method="POST">
+          <div class="mail-window-bar">
+            <div class="mail-window-controls" aria-hidden="true"><span></span><span></span><span></span></div>
+            <p>New message</p>
+          </div>
+          <div class="mail-row mail-recipient"><span class="mail-row-label">To</span><span class="mail-recipient-name">Trina Studio</span></div>
+          <div class="mail-row">
+            <label class="mail-row-label" for="commission-name">From <span aria-hidden="true">*</span></label>
+            <input id="commission-name" name="name" autocomplete="name" placeholder="Your name" required>
+          </div>
+          <div class="mail-row mail-email-row">
+            <label class="visually-hidden" for="commission-email">Your personal email *</label>
+            <input id="commission-email" name="email" type="email" autocomplete="email" placeholder="Your personal email" required>
+          </div>
+          <div class="mail-row">
+            <label class="mail-row-label" for="commission-subject">Subject</label>
+            <input id="commission-subject" name="subject" value="Hello, Trina Studio">
+          </div>
+          <input type="hidden" name="_subject" value="Commission request">
+          <input type="hidden" name="_replyto">
+          <div class="mail-row">
+            <label class="mail-row-label" for="commission-type">Project</label>
+            <select id="commission-type" name="type">
+              <option value="">Choose a starting point</option><option>Portrait or people</option><option>Pet portrait</option><option>Place or landscape</option><option>Something else entirely</option>
+            </select>
+          </div>
+          <div class="mail-message">
+            <label class="visually-hidden" for="commission-details">Message *</label>
+            <textarea id="commission-details" name="details" rows="5" maxlength="250" placeholder="Send me a message ..." required></textarea>
+          </div>
+          <div class="mail-compose-footer">
+            <div class="mail-footer-meta"><span data-message-count>0 / 250</span><span>* Required</span></div>
+            <button class="mail-send-button" type="submit"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z" /><path d="M22 2 11 13" /></svg>Send</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="footer-social-links"><a class="home-instagram" href="https://www.instagram.com/trina_studio/" target="_blank" rel="noopener noreferrer">Instagram</a><a class="home-tiktok" href="https://www.tiktok.com/@trinastudio" target="_blank" rel="noopener noreferrer">TikTok</a><a class="home-linkedin" href="https://www.linkedin.com/in/ngocnguyen6/" target="_blank" rel="noopener noreferrer">LinkedIn?</a></div><span>© <span data-year>2025</span> Trina Studio</span></footer>
+  </body>
+</html>

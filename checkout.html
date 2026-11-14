@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Checkout for Trina Studio art prints.">
+    <meta name="theme-color" content="#ffffff">
+    <title>checkout — trina studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Trina Studio home">trina studio<img class="metal-cloud-icon" src="images/metal-cloud.svg" alt=""></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="prints.html" aria-current="page">Print shop</a><a href="gallery.html">Studio</a><a href="commissions.html">Commissions</a><a href="about.html">About</a><a class="cart-link" href="prints.html#cart-dialog" aria-label="Return to cart"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 8h14l-1 13H6L5 8Z" /><path d="M9 8V6a3 3 0 0 1 6 0v2" /></svg><span class="cart-count" data-cart-count>0</span></a>
+      </nav>
+    </header>
+    <main class="checkout-main">
+      <div class="checkout-heading">
+        <a class="checkout-back" href="prints.html">← back to print shop</a>
+        <h1>CHECKOUT</h1>
+      </div>
+      <p class="checkout-status" role="status">Payment processing is not set up yet, so orders cannot be submitted.</p>
+      <section class="checkout-empty" data-checkout-empty hidden>
+        <h2>Your cart is empty</h2>
+        <a class="button button-dark" href="prints.html">browse prints</a>
+      </section>
+      <div class="checkout-layout" data-checkout-content>
+        <div class="checkout-details">
+          <div class="checkout-express" role="group" aria-label="Express checkout options">
+            <button class="checkout-express-paypal" type="button" disabled>PayPal</button>
+            <button class="checkout-express-apple" type="button" disabled>Apple Pay</button>
+          </div>
+          <div class="checkout-divider"><span>or</span></div>
+          <section class="checkout-section">
+            <h2>contact</h2>
+            <label class="checkout-field">Email<input type="email" autocomplete="email" placeholder="Email address"></label>
+          </section>
+          <section class="checkout-section">
+            <h2>delivery</h2>
+            <label class="checkout-field">Country/Region
+              <select autocomplete="country-name">
+                <option>United States</option>
+              </select>
+            </label>
+            <div class="checkout-field-row">
+              <label class="checkout-field">First name<input autocomplete="given-name" placeholder="First name"></label>
+              <label class="checkout-field">Last name<input autocomplete="family-name" placeholder="Last name"></label>
+            </div>
+            <label class="checkout-field">Address<input autocomplete="street-address" placeholder="Address"></label>
+            <label class="checkout-field">Apartment, suite, etc. (optional)<input autocomplete="address-line2" placeholder="Apartment, suite, etc. (optional)"></label>
+            <div class="checkout-field-row checkout-field-row-three">
+              <label class="checkout-field">City<input autocomplete="address-level2" placeholder="City"></label>
+              <label class="checkout-field">State<input autocomplete="address-level1" placeholder="State"></label>
+              <label class="checkout-field">ZIP code<input autocomplete="postal-code" placeholder="ZIP code"></label>
+            </div>
+            <label class="checkout-field">Phone<input type="tel" autocomplete="tel" placeholder="Phone"></label>
+          </section>
+          <section class="checkout-section">
+            <h2>shipping method</h2>
+            <p class="checkout-shipping-method">shipping + handling <strong>$1.00</strong></p>
+          </section>
+          <section class="checkout-section">
+            <h2>payment</h2>
+            <p class="checkout-muted">Payment options are unavailable until secure checkout is configured.</p>
+            <div class="checkout-methods" role="group" aria-label="Payment methods, setup required">
+              <button type="button" disabled>Credit or debit card</button>
+              <button type="button" disabled>PayPal</button>
+              <button type="button" disabled>Apple Pay</button>
+            </div>
+            <button class="checkout-pay-now" type="button" disabled>pay now</button>
+          </section>
+        </div>
+        <aside class="checkout-summary" aria-labelledby="checkout-summary-title">
+          <h2 id="checkout-summary-title">order summary</h2>
+          <ul class="checkout-items" data-checkout-items></ul>
+          <div class="checkout-summary-totals">
+            <div><span>Subtotal</span><strong data-checkout-subtotal>$0.00</strong></div>
+            <div><span>shipping + handling</span><strong data-checkout-shipping>$1.00</strong></div>
+            <div class="checkout-grand-total"><span>Total</span><strong data-checkout-grand-total>$1.00</strong></div>
+          </div>
+        </aside>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="footer-social-links"><a class="home-instagram" href="https://www.instagram.com/trina_studio/" target="_blank" rel="noopener noreferrer">Instagram</a><a class="home-tiktok" href="https://www.tiktok.com/@trinastudio" target="_blank" rel="noopener noreferrer">TikTok</a><a class="home-linkedin" href="https://www.linkedin.com/in/ngocnguyen6/" target="_blank" rel="noopener noreferrer">LinkedIn?</a></div><span>© <span data-year>2026</span> Trina Studio</span></footer>
+  </body>
+</html>
