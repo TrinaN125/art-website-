@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 144" fill="none">
+  <defs>
+    <linearGradient id="chrome" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="12%" stop-color="#77808f"/>
+      <stop offset="24%" stop-color="#fff"/>
+      <stop offset="39%" stop-color="#8992a1"/>
+      <stop offset="51%" stop-color="#e7ebf1"/>
+      <stop offset="63%" stop-color="#626b79"/>
+      <stop offset="77%" stop-color="#fff"/>
+      <stop offset="90%" stop-color="#9ca5b3"/>
+      <stop offset="100%" stop-color="#f1f4f8"/>
+    </linearGradient>
+  </defs>
+  <path d="M29 129C15 129 6 120 6 106C6 88 14 73 28 62C30 44 44 31 62 31C79 31 92 43 95 59C101 53 108 50 117 50C134 50 147 63 148 80C163 80 175 91 175 105C175 119 164 129 149 129H29Z" transform="translate(4 5)" stroke="#4b5361" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+  <path d="M29 129C15 129 6 120 6 106C6 88 14 73 28 62C30 44 44 31 62 31C79 31 92 43 95 59C101 53 108 50 117 50C134 50 147 63 148 80C163 80 175 91 175 105C175 119 164 129 149 129H29Z" transform="translate(-1 -1.5)" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
+  <path d="M29 129C15 129 6 120 6 106C6 88 14 73 28 62C30 44 44 31 62 31C79 31 92 43 95 59C101 53 108 50 117 50C134 50 147 63 148 80C163 80 175 91 175 105C175 119 164 129 149 129H29Z" stroke="url(#chrome)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
